@@ -10,6 +10,12 @@ namespace ConsoleApp6
     {
         static void Main(string[] args)
         {
+            var obj = new Author();
+            obj.FirstName = "Dennis";
+            obj.LastName = "Ritchie";
+
+            obj.SayName();
+            Console.ReadLine();
         }
     }
 }
